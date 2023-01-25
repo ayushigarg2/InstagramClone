@@ -1,0 +1,10 @@
+touch .gitignore    // It includes all the files which we don't want to include in github
+git config --global user.name Ayushi 
+git config --global user.email "aggarwalayush251@gmail.com"
+git init            // It initialise git repository
+git add.            // It includes all files in staging area
+git commit -m "Initial Commit"    // It helps to commit files in github as initially no files are there
+git status                       # Just to see (not necessary)
+ssh-keygen -t ed25519 -C "your_email@example.com"      // Add this key to your github account
+git remote add origin <ssh url.git>
+git push origin master
